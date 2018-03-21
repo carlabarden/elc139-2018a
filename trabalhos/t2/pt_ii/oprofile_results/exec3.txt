@@ -1,0 +1,50 @@
+Flat profile:
+
+Each sample counts as 1 samples.
+  %   cumulative   self              self     total           
+ time   samples   samples    calls   1/call   1/call  name    
+ 37.92    331.00   331.00      338     0.98     0.98  procurarNodo
+ 25.09    550.00   219.00      220     1.00     1.00  filtro
+ 13.29    666.00   116.00      117     0.99     0.99  retornarNode
+  9.05    745.00    79.00       80     0.99     1.00  addPalavraArquivo
+  3.89    779.00    34.00       34     1.00     1.00  geraElemento
+  3.78    812.00    33.00       33     1.00     1.00  geraNodo
+  3.32    841.00    29.00     1477     0.02     0.58  geraTrie
+  2.29    861.00    20.00      606     0.03     0.45  parser
+  1.03    870.00     9.00       43     0.21     1.02  inserirNodo
+  0.34    873.00     3.00        3     1.00     1.00  geraFimPalavra
+  0.00    873.00     0.00       35     0.00     0.00  _init
+  0.00    873.00     0.00        3     0.00     0.33  saida
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
