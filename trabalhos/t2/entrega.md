@@ -4,12 +4,12 @@
 
 ---
 ### Sumário  
-1. [Introdução](intro)
-2. [Pt. I: Trabalhando com o GProf](pt-i)  
-3. [Pt. II: Comparando Profilers](pt-ii)  
-3.1 [Sobre o software usado para executar o profile](pt-ii-1)  
-3.2 [Resultados obtidos](pt-ii-2)
-4. [Referências](ref)
+1. [Introdução](#intro)
+2. [Pt. I: Trabalhando com o GProf](#pt-i)  
+3. [Pt. II: Comparando Profilers](#pt-ii)  
+3.1 [Sobre o software usado para executar o profile](#pt-ii-1)  
+3.2 [Resultados obtidos](#pt-ii-2)
+4. [Referências](#ref)
 ---
 <a name=“intro”> </a>
 ### Introdução 
