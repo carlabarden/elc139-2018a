@@ -4,12 +4,12 @@
 
 ---
 ### Sumário  
-1. [Introdução](#intro)
-2. [Pt. I: Trabalhando com o GProf](#pt-i)  
-3. [Pt. II: Comparando Profilers](#pt-ii)  
-3.1 [Sobre o software usado para executar o profile](#pt-ii-1)  
-3.2 [Resultados obtidos](#pt-ii-2)
-4. [Referências](#ref)
+1. [Introdução](intro)
+2. [Pt. I: Trabalhando com o GProf](pt-i)  
+3. [Pt. II: Comparando Profilers](pt-ii)  
+3.1 [Sobre o software usado para executar o profile](pt-ii-1)  
+3.2 [Resultados obtidos](pt-ii-2)
+4. [Referências](ref)
 ---
 <a name=“intro”> </a>
 ### Introdução 
@@ -40,7 +40,7 @@ Na tabela abaixo, encontram-se alguns dados extraídos de algumas das execuçõe
 |5|500.000|100.000| 173559565|  
 |6|50.000.000|1000| 1726672|  
 
-*Obs: [Aqui]() estão as saídas geradas pelo GProf em cada uma das execuções.*   
+*Obs: [Aqui](https://github.com/carlabarden/elc139-2018a/tree/master/trabalhos/t2/pt_i) estão as saídas geradas pelo GProf em cada uma das execuções.*   
 
 Analisando a tabela e as saídas geradas pelo GProf, pode-se notar que, apesar do tamanho do vetor aumentar (e, consequentemente, aumentar um pouco o tempo de execução), as chamadas de funções de cada iteração não se alteram. Assim, torna-se vantajoso paralelizar apenas se o número de iterações (que, conforme a tabela, quando é muito grande reflete muito mais no tempo da aplicação) for muito alto, dividindo-se a execução das iterações entre threads.  
 
@@ -69,7 +69,9 @@ Os textos estão em 5 idiomas diferentes, para aumentar a complexidade da execu�
 #### Resultados Obtidos  
 
 A instalação dos profilers na distribuição alvo foi extremamente simples, já que eles se encontram no seu repositório padrão. O uso, principalmente do OProfile foi um pouco complicado, principalmente pelo grande leque de ferramentas e opções que o aplicativo oferece.
-Neste caso seria vantajoso paralelizar a busca de palavras, já que poderia haver um ganho de desempenho buscando-as simultaneamente.
+Neste caso seria vantajoso paralelizar a busca de palavras, já que poderia haver um ganho de desempenho buscando-as simultaneamente.  
+* [Resultados gerados pelo GProf](https://github.com/carlabarden/elc139-2018a/tree/master/trabalhos/t2/pt_ii/gprof_results)  
+* [Resultados gerados pelo OProfile](https://github.com/carlabarden/elc139-2018a/tree/master/trabalhos/t2/pt_ii/oprofile_results)
 
 
 ---
