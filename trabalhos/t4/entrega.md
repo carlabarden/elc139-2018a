@@ -5,7 +5,7 @@
 ---
 ### Comentários  
    Neste trabalho, [este](https://github.com/AndreaInfUFSM/elc139-2018a/blob/master/trabalhos/t4/ThreadDemoABC.cpp) código, que usa POSIX Threads, foi modificado para usar Open MP e demonstrar a diferença de resultados ao se utilizar a cláusula `schedule` com a opção `static` ou `dynamic` para o balanceamento da carga do loop.
-   O [programa]() modificado mostra na [saída]() como cada array ficou após ser alterado pelas threads em cada caso, bem como o número de acertos (que deve ser igual ao tamanho do array, exceto onde não há exclusão mútua) e a carga de trabalho de cada thread.
+   O [programa](https://github.com/carlabarden/elc139-2018a/blob/master/trabalhos/t4/t4.cpp) modificado mostra na [saída](https://github.com/carlabarden/elc139-2018a/blob/master/trabalhos/t4/saida.txt) como cada array ficou após ser alterado pelas threads em cada caso, bem como o número de acertos (que deve ser igual ao tamanho do array, exceto onde não há exclusão mútua) e a carga de trabalho de cada thread.
 
 ---
 ### Referências  
