@@ -4,7 +4,7 @@
 
 ---
 ### Links  
-1. [Código desenvolvido]()  
+1. [Código desenvolvido](nqueens/nqueens.c)  
 2. [Slides](https://docs.google.com/presentation/d/1a022ZCAIZGWFk5uyW1Wmv_diN_V7AP38T2hTth1LBZI/edit?usp=sharing)
 
 ---
