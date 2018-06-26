@@ -1,0 +1,56 @@
+Sequencial
+Execucao 0
+Tempo: 88.1596 segundos.
+Execucao 1
+Tempo: 88.0755 segundos.
+Execucao 2
+Tempo: 88.1758 segundos.
+Execucao 3
+Tempo: 88.0886 segundos.
+Execucao 4
+Tempo: 88.2051 segundos.
+
+
+
+Paralelo 2 threads
+Execucao 0
+Tempo: 47.6851 segundos.
+Execucao 1
+Tempo: 47.6908 segundos.
+Execucao 2
+Tempo: 47.6837 segundos.
+Execucao 3
+Tempo: 47.6621 segundos.
+Execucao 4
+Tempo: 47.6831 segundos.
+
+
+
+Paralelo 4 threads
+Execucao 0
+Tempo: 26.6391 segundos.
+Execucao 1
+Tempo: 26.6389 segundos.
+Execucao 2
+Tempo: 26.6519 segundos.
+Execucao 3
+Tempo: 26.6396 segundos.
+Execucao 4
+Tempo: 26.6385 segundos.
+
+
+
+Paralelo 5 threads
+Execucao 0
+Tempo: 26.6526 segundos.
+Execucao 1
+Tempo: 26.654 segundos.
+Execucao 2
+Tempo: 26.6547 segundos.
+Execucao 3
+Tempo: 26.6863 segundos.
+Execucao 4
+Tempo: 26.6511 segundos.
+
+
+
