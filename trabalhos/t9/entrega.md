@@ -10,7 +10,7 @@
 4. [Modificação 3](openmp2/mandelbrot.cpp), usando OpenMP e 5 threads  
 5. [Tempos de execução](times.txt)
 6. [Script de execução](testes.sh)
-7. [Slides]()  
+7. [Slides](https://docs.google.com/presentation/d/1R3sP9CiEohtVTLn3D6CHOeJpWzMkLriF1GGHwM2pQrk/edit?usp=sharing)  
 
 ---
 ### Referências  
