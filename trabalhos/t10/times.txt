@@ -1,0 +1,42 @@
+Mandelbrot 4 threads TBB;
+Execucao 0
+TBB (microsegundos): ; 26642301;
+Execucao 1
+TBB (microsegundos): ; 26626913;
+Execucao 2
+TBB (microsegundos): ; 26637498;
+Execucao 3
+TBB (microsegundos): ; 26629279;
+Execucao 4
+TBB (microsegundos): ; 26726371;
+
+
+
+Dotprod sequencial;
+Execucao 0
+Tempo de calculo (microsegundos);  17259287
+Execucao 1
+Tempo de calculo (microsegundos);  17260067
+Execucao 2
+Tempo de calculo (microsegundos);  17261864
+Execucao 3
+Tempo de calculo (microsegundos);  17258527
+Execucao 4
+Tempo de calculo (microsegundos);  17286417
+
+
+
+Dotprod 4 threads TBB
+Execucao 0
+Tempo de calculo(microsegundos);  7564626
+Execucao 1
+Tempo de calculo(microsegundos);  7545255
+Execucao 2
+Tempo de calculo(microsegundos);  7558827
+Execucao 3
+Tempo de calculo(microsegundos);  7897584
+Execucao 4
+Tempo de calculo(microsegundos);  7560446
+
+
+
