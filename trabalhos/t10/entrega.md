@@ -8,7 +8,7 @@
 2. [Mandelbrot OpenMP](https://github.com/carlabarden/elc139-2018a/blob/master/trabalhos/t9/openmp4/mandelbrot.cpp), usando OpenMP e 4 threads  
 3. [Tempo de Execução](https://github.com/carlabarden/elc139-2018a/blob/master/trabalhos/t9/times.txt), usando OpenMP e 4 threads  
 4. [Mandelbrot TBB](mandelbrot/mandelbrot.cpp), executado com 4 threads
-5. [Dotprod Sequencial](dotprod/dotprod_seq.c), inspirado no [dotprod_seq](https://github.com/carlabarden/elc139-2018a/blob/master/trabalhos/t2/dotprod_seq/dotprod_seq.c)  
+5. [Dotprod Sequencial](dotprod/dotprod_seq.c), inspirado no [trabalho 2](https://github.com/carlabarden/elc139-2018a/blob/master/trabalhos/t2/dotprod_seq/dotprod_seq.c)  
 6. [Dotprod TBB](dotprod/dotprod.cpp), executado com 4 threads  
 7. [Script de execução](exec.sh)  
 8. [Tempos de execução](times.txt), usando TBB  
